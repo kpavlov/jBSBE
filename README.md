@@ -34,7 +34,7 @@ jBSBE is available in the mvn repository, just search for the artifact id jbsbe 
 
 Following Sections show how easy you can use the library to setup an ISO Message, ready tp be sent on a socket.
 
-### @nnotation Feature
+### @Annotation Feature
 First thing you need is the message body itself. The @Iso8583 tells us that following pojo represents an ISO Message of type (0x200), the @AutoStan annotation makes use of the j8583 SimpleTraceGenerator to automatically set the stan. Message fields are set by help from the template set [Next Step](#creating-iso8583-template).
 ```java
 @Iso8583(type=0x200)
